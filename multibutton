@@ -1,0 +1,7 @@
+let button = document.querySelectorAll(".btn");
+
+button.forEach(newbutton => {
+    newbutton.addEventListener("click", function(){
+        alert(this.innerText + "was clicked successfully!")
+    });
+});
